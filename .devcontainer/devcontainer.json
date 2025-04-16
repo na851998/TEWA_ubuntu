@@ -1,0 +1,14 @@
+{
+  "name": "Ubuntu 20.04.2 Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "echo 'Ready!'",
+  "features": {},
+  "mounts": [],
+  "forwardPorts": [],
+  "remoteUser": "root"
+}
